@@ -9,7 +9,14 @@ public class Mean {
 	private static Scanner scanner;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		getMean();
+		
+    }//end of main
+    
+	// Mean function
+
+	public static void getMean() {
 		int n;
         double mean = 0;
         double sum = 0;
@@ -49,6 +56,5 @@ public class Mean {
             System.out.println(e);
             
         }
-    }//end of main
-    
+	}
 }
